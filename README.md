@@ -11,6 +11,7 @@ This project demonstrates using Zod as an alternative to TypeScript for adding t
 
 ## Test the code
 ```
+git clone https://github.com/ryanramage/zod-jsdocs-types-example.git
 npm i
 npm test
 ```
