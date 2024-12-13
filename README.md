@@ -2,14 +2,14 @@
 
 This project demonstrates using Zod as an alternative to TypeScript for adding types to JavaScript projects.
 
-## Benefits of Using Zod
+## Benefits of style shown
 * Runtime type checking for enhanced reliability
 * Autocompletion support in popular editors (VSCode, Vim)
-* Works with vanilla JavaScript - no TypeScript required
-* Seamless integration with published npm modules
-* IDE support through prepublished type definitions
+* Works with vanilla JavaScript - no TypeScript required, no build step
+* Published modules retain type information for consumers
+* build/install/clean npm targets for project hygine
 
-## Getting Started
+## Test the code
 ```
 npm i
 npm test
