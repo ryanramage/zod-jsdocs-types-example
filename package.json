@@ -1,0 +1,21 @@
+{
+  "name": "test-of-zod-types",
+  "version": "1.0.0",
+  "license": "ISC",
+  "main": "index.mjs",
+  "scripts": {
+    "clean": "(rm *.mts || true) && (rm *.map || true)",
+    "build": "npm run clean && tsc",
+    "test": "standard && tape tests/*.mjs",
+    "lint:fix": "standard --fix",
+    "prepublish": "tsc"
+  },
+  "devDependencies": {
+    "standard": "^17.1.0",
+    "tape": "^5.8.1",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  }
+}

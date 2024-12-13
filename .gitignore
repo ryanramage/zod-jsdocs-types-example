@@ -1,0 +1,10 @@
+package-lock.json
+node_modules/
+**/*.d.ts
+**/*.d.mts
+**/*.d.cts
+**/*.d.ts.map
+**/*.d.mts.map
+**/*.d.cts.map
+.aider*
+**/.tap/*
