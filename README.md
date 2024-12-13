@@ -1,21 +1,25 @@
-Using ZOD for types
--------------------
+# Zod Types Demo Project
 
-This repo represents a way to use zod to define a schema for functions.
-It shows that runtime type checking occurs. 
-It has been tested to work for internal code completion in vscode and vim.
-It has been test with published modules when used as in installed module.
-The prepublish step is important to build some files that vscode needs when using the package as a module.
-The tsc generated files should not be checked into source control and are excluded in the gitignore
+This project demonstrates using Zod as an alternative to TypeScript for adding types to JavaScript projects.
 
-The following commands should work and test the code
+## Benefits of Using Zod
+* Runtime type checking for enhanced reliability
+* Autocompletion support in popular editors (VSCode, Vim)
+* Works with vanilla JavaScript - no TypeScript required
+* Seamless integration with published npm modules
+* IDE support through prepublished type definitions
+
+## Getting Started
 ```
 npm i
-npm test 
+npm test
 ```
 
-The .gitignore rule of ignoring package-lock.json is just to keep this repo smaller. In a real project you probably want that in source control.
-The choice of 'standard' as a coding style is arbitrary. It is not what is being shown off.
-The choise of tape for testing is arbitrary. It is not what is being shown off. 
+## Project Implementation Notes
+These implementation choices are not core to the Zod demonstration:
+* Standard.js coding style is used but is not significant to the demo
+* Tape testing framework is used but is not significant to the demo
+* package-lock.json is gitignored only to keep repo size small
+* Generated TSC files are excluded from source control
 
 
