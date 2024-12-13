@@ -23,4 +23,4 @@ These implementation choices are not core to the Zod demonstration:
 * package-lock.json is gitignored only to keep repo size small
 * Generated TSC files are excluded from source control
 
-
+Thanks to [@MikeKash](https://github.com/MikeKash) who helped make this generic
