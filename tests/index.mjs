@@ -2,7 +2,7 @@
 import test from 'tape'
 import { impl } from '../index.mjs'
 
-test('fetchListingsByMls returns listing when found', async (t) => {
+test('valid config and params', async (t) => {
   const config = { apiKey: 'test-api-key' }
   const expected = { boo: 'bazbar-e' }
 
